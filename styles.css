@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #004aad;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(120deg, #f0f9ff, #cce7ff);
+    color: #004aad;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    background-color: #004aad;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #004aad;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.services-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.service-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.service-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #004aad;
+}
+
+/* Contact Form */
+#contact-form input, #contact-form textarea, #contact-form button {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact-form button {
+    background-color: #004aad;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004aad;
+    color: white;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
